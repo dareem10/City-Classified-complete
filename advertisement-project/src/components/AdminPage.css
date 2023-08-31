@@ -1,0 +1,109 @@
+/* Styling for the admin page container */
+.admin-page {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Styling for the admin login form */
+.admin-login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the admin login button */
+.admin-login-btn {
+  display: block;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-login-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the admin dashboard */
+.admin-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the option buttons */
+.option-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.option-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.option-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for ad and user details sections */
+.ad-list,
+.user-details-list {
+  margin-top: 20px;
+}
+
+.ad,
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.ad:hover,
+.user-details:hover {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ad p,
+.user-details p {
+  margin: 0;
+}
+
+.ad button,
+.user-details button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ad button:hover,
+.user-details button:hover {
+  background-color: #c82333;
+}
